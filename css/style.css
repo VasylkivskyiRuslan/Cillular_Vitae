@@ -1,0 +1,68 @@
+body{
+    font-family: "Aller", serif;
+    font-size: 16px;
+    background: #578ab3;
+    display: grid;
+    grid-template-areas: "header header header"
+                         "sidebar content content";
+    grid-template-columns: 30% 1fr;
+}
+
+.header{
+    grid-area: header;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.profile_foto{
+    margin-top: 10em;
+    width: 240px;
+    height: 300px;
+    display: block;
+    background-image: url(../img/profile_foto.jpg);
+    background-size: 100% 100%;
+    border: 4px solid #fff;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+}
+
+.profile_info{
+    margin-left: 5em;
+}
+
+.profile_info h1{
+    margin-top: 1em;
+    font-family: "Aller", serif;
+    font-size: 6.25em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.profile_info span{
+    display: block;
+    margin-bottom: 1em;
+    font-family: "Aller", serif;
+    font-size: 4.4em;
+    color: #fff;
+}
+
+.about_me{
+    margin-bottom: 5em;
+    font-family: "Aller", serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+.sidebar{
+    height: 500px;
+    grid-area: sidebar;
+    background-color: #36404f;
+}
+
+.content{
+    height: 500px;
+    grid-area: content;
+    background-color: #36404f;
+}
+
