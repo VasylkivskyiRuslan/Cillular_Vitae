@@ -5,7 +5,7 @@ body{
     display: grid;
     grid-template-areas: "header header"
                          "sidebar content";
-    grid-template-columns: 30% 1fr;
+    grid-template-columns: 40% 1fr;
     grid-column-gap: 20px;
 }
 
@@ -16,7 +16,7 @@ body{
 }
 
 .profile_foto{
-    margin-top: 10em;
+    margin-top: 6em;
     width: 240px;
     height: 300px;
     display: block;
@@ -140,6 +140,24 @@ body{
     background-color: #578ab3;
 }
 
+.extraSkills{
+    padding: 2.5em 0 1em 5.5em;
+}
+
+.extraSkills h3{
+    font-family: "Aller", serif;
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+.extraSkills p{
+    font-family: "Aller", serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #fff;
+}
+
 .languages tr th{
     background-color: #777989;
 }
@@ -207,6 +225,40 @@ body{
 .content{
     grid-area: content;
     background-color: #36404f;
+}
+
+.expirience div,
+.education div,
+.myProjects div{
+    padding: 3em 0 1em 5em;
+}
+
+.expirience__descr div p,
+.expirience__descr div dl dt,
+.education__descr dl dt{
+    font: 1.5em/1.5em "Aller", serif;
+    color: #fff;
+}
+
+.expirience__descr div dl dd,
+.myProjects__descr ul li a{
+    padding-left: 2em;
+    font: 1em/1.5em "Aller", serif;
+    color: #fff;
+}
+
+.education__descr dl dd,
+.myProjects__descr ul li a{
+    font: 1.5em/1.5em "Aller", serif;
+    color: #fff;
+}
+
+.myProjects__descr ul li a{
+    text-decoration: none;
+}
+
+.myProjects__descr ul li a:hover{
+    text-decoration: underline;
 }
 
 
