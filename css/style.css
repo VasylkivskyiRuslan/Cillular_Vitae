@@ -224,6 +224,7 @@ body{
 
 .content{
     grid-area: content;
+    padding-bottom: 5em;
     background-color: #36404f;
 }
 
@@ -258,6 +259,43 @@ body{
 }
 
 .myProjects__descr ul li a:hover{
+    text-decoration: underline;
+}
+
+.printVersion{
+    text-align: end;
+}
+
+.printVersion p{
+    width: 100%;
+}
+
+.printVersion p span{
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    margin-right: 1em;
+    text-align: center;
+    background-color: #578ab2;
+    border: 4px solid #fff;
+    border-radius: 50px;
+}
+
+.printVersion p i{
+    font-size: 2em;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+.printVersion p a{
+    display: inline-block;
+    padding: 2em 10em 0 0;
+    font: 1.5em/.5em "Aller", serif;
+    color: #fff;
+    text-decoration: none;
+}
+
+.printVersion p a:hover{
     text-decoration: underline;
 }
 
