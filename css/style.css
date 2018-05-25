@@ -263,11 +263,22 @@ body{
 
 .myProjects__descr ul{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .myProjects__descr ul li a{
     text-decoration: none;
+}
+
+.myProjects__descr ul li ul{
+    margin: 0 0 0 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.myProjects__descr ul li ul li{
+    font: 1.25em/1.375em "Aller", serif;
+    color: #fff;
 }
 
 .myProjects__descr ul li a:hover{

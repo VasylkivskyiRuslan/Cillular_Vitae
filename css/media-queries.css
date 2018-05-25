@@ -124,4 +124,8 @@
     .contact_me ul{
         flex-direction: column;
     }
+
+    .contact_me ul li span{
+        margin-left: 2.5em;
+    }
 }
