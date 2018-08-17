@@ -266,6 +266,10 @@ body{
     flex-wrap: wrap;
 }
 
+.myProjects__descr ul li{
+    margin: 15px 0;
+}
+
 .myProjects__descr ul li a{
     text-decoration: none;
 }
