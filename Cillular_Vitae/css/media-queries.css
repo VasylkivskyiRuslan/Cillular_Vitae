@@ -1,0 +1,131 @@
+@media screen and (max-width: 1400px), screen and (max-device-width: 1400px){
+    body{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1250px), screen and (max-device-width: 1250px){
+    body{
+        font-size: 12px;
+    }
+
+    .profile_info{
+        margin-left: 2.5em;
+    }
+
+    .profile_info h1{
+        margin-top: 2em;
+        font-size: 5em;
+    }
+
+    .head img{
+        width: 10em;
+        height: 10em;
+    }
+
+    .head h2{
+        font-size: 3em;
+        line-height: 3em;
+    }
+}
+
+@media screen and (max-width: 1030px), screen and (max-device-width: 1030px){
+    body{
+        font-size: 14px;
+        grid-template-areas: "header header"
+                             "sidebar sidebar"
+                             "content content";
+    }
+
+    .head {
+        justify-content: center;
+    }
+
+    .contact_me ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact_me ul li{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .contact_me ul li span{
+        margin-top: 1em;
+    }
+
+    .contact_me ul li a{
+        line-height: 3.5em;
+    }
+
+    .expirience div,
+    .education div,
+    .myProjects div{
+        padding: 3em 0 1em 0;
+    }
+
+    .expirience__descr{
+        display: grid;
+        justify-content: center;
+    }
+
+
+
+    .education div{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 940px), screen and (max-device-width: 940px){
+    body{
+        font-size: 12px;
+    }
+
+    .profile_foto{
+        min-width: 160px;
+        max-width: 165px;
+        height: 220px;
+    }
+
+    .profile_info h1{
+        font-size: 4em;
+    }
+
+    .profile_info span{
+        font-size: 2em;
+    }
+
+    .printVersion p a{
+        padding-right: 5em;
+    }
+}
+
+@media screen and (max-width: 840px), screen and (max-device-width: 840px){
+    body{
+        font-size: 11px;
+    }
+
+    .profile_info h1{
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 750px), screen and (max-device-width: 750px){
+    .contact_me ul li{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 750px), screen and (max-device-width: 750px){
+    .contact_me ul{
+        flex-direction: column;
+    }
+
+    .contact_me ul li span{
+        margin-left: 2.5em;
+    }
+}
